@@ -13,21 +13,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.github\workflows\build.yml = .github\workflows\build.yml
 		CreateDbs.sql = CreateDbs.sql
 		LICENSE.txt = LICENSE.txt
 		MigrationCommands.txt = MigrationCommands.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.DataTest", "MultipleDbEf.DataTest\MultipleDbEf.DataTest.csproj", "{326AA1E1-E0BF-4E97-8E29-198816115791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.DataTest", "MultipleDbEf.DataTest\MultipleDbEf.DataTest.csproj", "{326AA1E1-E0BF-4E97-8E29-198816115791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.ModelTest", "MultipleDbEf.ModelTest\MultipleDbEf.ModelTest.csproj", "{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.ModelTest", "MultipleDbEf.ModelTest\MultipleDbEf.ModelTest.csproj", "{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD5998A7-877E-49CA-8936-284C02510FB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4A93AD8D-789F-4DDB-B5AC-4F311719E751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.ApiTest", "MultipleDbEf.ApiTest\MultipleDbEf.ApiTest.csproj", "{A7EB703E-150B-42B6-8944-AA6D653FF2EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.ApiTest", "MultipleDbEf.ApiTest\MultipleDbEf.ApiTest.csproj", "{A7EB703E-150B-42B6-8944-AA6D653FF2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
