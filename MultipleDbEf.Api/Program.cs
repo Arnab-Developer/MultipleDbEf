@@ -1,5 +1,4 @@
 using MultipleDbEf.Api.StartHelper;
-using MultipleDbEf.Data;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();

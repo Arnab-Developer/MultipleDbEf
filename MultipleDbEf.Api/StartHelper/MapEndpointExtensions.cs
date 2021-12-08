@@ -11,6 +11,6 @@ internal static class MapEndpointExtensions
         foreach (IEndPoint endPoint in endPoints)
         {
             endPoint.Register(app);
-        }        
+        }
     }
 }
