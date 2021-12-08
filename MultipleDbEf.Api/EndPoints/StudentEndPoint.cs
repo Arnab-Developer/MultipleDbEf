@@ -1,7 +1,4 @@
-﻿using MultipleDbEf.Data;
-using MultipleDbEf.Model;
-
-namespace MultipleDbEf.Api.EndPoints;
+﻿namespace MultipleDbEf.Api.EndPoints;
 
 internal class StudentEndPoint : IEndPoint
 {
@@ -19,7 +16,7 @@ internal class StudentEndPoint : IEndPoint
 
     internal IResult CreateStudent(Student student)
     {
-        _context.Students.Add(student);
+        _context.Students.Add(new Student() { Name = student.Name });
         _context.SaveChanges();
         return Results.Ok();
     }

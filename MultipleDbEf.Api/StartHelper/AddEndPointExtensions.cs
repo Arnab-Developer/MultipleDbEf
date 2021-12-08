@@ -1,6 +1,4 @@
-﻿using MultipleDbEf.Api.EndPoints;
-
-namespace MultipleDbEf.Api.StartHelper;
+﻿namespace MultipleDbEf.Api.StartHelper;
 
 internal static class AddEndPointExtensions
 {

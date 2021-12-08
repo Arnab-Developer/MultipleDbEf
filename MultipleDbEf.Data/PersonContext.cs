@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MultipleDbEf.Model;
-
-namespace MultipleDbEf.Data;
+﻿namespace MultipleDbEf.Data;
 
 public class PersonContext : DbContext
 {

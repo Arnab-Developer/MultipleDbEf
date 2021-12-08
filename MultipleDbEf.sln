@@ -3,11 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.Api", "MultipleDbEf.Api\MultipleDbEf.Api.csproj", "{C6359686-DC9A-47B6-957B-7BCBCE507472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.Api", "MultipleDbEf.Api\MultipleDbEf.Api.csproj", "{C6359686-DC9A-47B6-957B-7BCBCE507472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.Model", "MultipleDbEf.Model\MultipleDbEf.Model.csproj", "{F0648550-4EAF-4C5E-A85D-78B363EDFD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.Model", "MultipleDbEf.Model\MultipleDbEf.Model.csproj", "{F0648550-4EAF-4C5E-A85D-78B363EDFD95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.Data", "MultipleDbEf.Data\MultipleDbEf.Data.csproj", "{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleDbEf.Data", "MultipleDbEf.Data\MultipleDbEf.Data.csproj", "{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B244A9E-1708-466E-9184-E21591ECE680}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CreateDbs.sql = CreateDbs.sql
+		LICENSE.txt = LICENSE.txt
+		MigrationCommands.txt = MigrationCommands.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.DataTest", "MultipleDbEf.DataTest\MultipleDbEf.DataTest.csproj", "{326AA1E1-E0BF-4E97-8E29-198816115791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.ModelTest", "MultipleDbEf.ModelTest\MultipleDbEf.ModelTest.csproj", "{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD5998A7-877E-49CA-8936-284C02510FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4A93AD8D-789F-4DDB-B5AC-4F311719E751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbEf.ApiTest", "MultipleDbEf.ApiTest\MultipleDbEf.ApiTest.csproj", "{A7EB703E-150B-42B6-8944-AA6D653FF2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +47,29 @@ Global
 		{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326AA1E1-E0BF-4E97-8E29-198816115791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326AA1E1-E0BF-4E97-8E29-198816115791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326AA1E1-E0BF-4E97-8E29-198816115791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326AA1E1-E0BF-4E97-8E29-198816115791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96F20B7-7B4F-4D13-BF0F-D07698F7C728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EB703E-150B-42B6-8944-AA6D653FF2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EB703E-150B-42B6-8944-AA6D653FF2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EB703E-150B-42B6-8944-AA6D653FF2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EB703E-150B-42B6-8944-AA6D653FF2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6359686-DC9A-47B6-957B-7BCBCE507472} = {FD5998A7-877E-49CA-8936-284C02510FB1}
+		{F0648550-4EAF-4C5E-A85D-78B363EDFD95} = {FD5998A7-877E-49CA-8936-284C02510FB1}
+		{3FE4F5C3-9301-4EE5-B73D-57D1C356BDF9} = {FD5998A7-877E-49CA-8936-284C02510FB1}
+		{326AA1E1-E0BF-4E97-8E29-198816115791} = {4A93AD8D-789F-4DDB-B5AC-4F311719E751}
+		{A96F20B7-7B4F-4D13-BF0F-D07698F7C728} = {4A93AD8D-789F-4DDB-B5AC-4F311719E751}
+		{A7EB703E-150B-42B6-8944-AA6D653FF2EC} = {4A93AD8D-789F-4DDB-B5AC-4F311719E751}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0F9DDB7-8CB6-43A2-A482-6223D8555979}

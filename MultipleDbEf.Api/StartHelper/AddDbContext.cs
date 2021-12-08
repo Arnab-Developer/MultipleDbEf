@@ -1,6 +1,4 @@
-﻿using MultipleDbEf.Data;
-
-namespace MultipleDbEf.Api.StartHelper;
+﻿namespace MultipleDbEf.Api.StartHelper;
 
 internal static class AddDbContextExtensions
 {
