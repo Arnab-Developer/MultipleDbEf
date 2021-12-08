@@ -6,9 +6,12 @@ public class Student
 
     public string Name { get; set; }
 
+    public int Age { get; set; }
+
     public Student()
     {
         Id = 0;
         Name = string.Empty;
+        Age = 0;
     }
 }
