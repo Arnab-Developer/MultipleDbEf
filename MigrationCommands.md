@@ -21,3 +21,5 @@ dotnet ef database update -p MultipleDbEf.Data\MultipleDbEf.Data.csproj -s Multi
 
 dotnet ef database update -p MultipleDbEf.Data\MultipleDbEf.Data.csproj -s MultipleDbEf.Api\MultipleDbEf.Api.csproj -c PersonContext
 ```
+
+See [this](https://docs.microsoft.com/en-us/ef/core/cli/dotnet) documentation.
