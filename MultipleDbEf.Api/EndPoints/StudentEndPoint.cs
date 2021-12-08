@@ -16,7 +16,7 @@ internal class StudentEndPoint : IEndPoint
 
     internal IResult CreateStudent(Student student)
     {
-        _context.Students.Add(new Student() { Name = student.Name });
+        _context.Students.Add(new Student() { Name = student.Name, Age = student.Age });
         _context.SaveChanges();
         return Results.Ok();
     }

@@ -16,7 +16,7 @@ internal class PersonEndPoint : IEndPoint
 
     internal IResult CreatePerson(Person person)
     {
-        _context.Persons.Add(new Person() { Name = person.Name });
+        _context.Persons.Add(new Person() { Name = person.Name, Age = person.Age });
         _context.SaveChanges();
         return Results.Ok();
     }
